@@ -1,0 +1,8 @@
+[debug] > Exec(run, Some(72ee0dfc-5821-4c4b-b171-44998232a3b8), Some(CommandSource(console0)))
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 9 Scala sources to /Users/razafindraibenandrainajerryalex/Documents/Fanampina/mozaaaartGame_code/target/scala-2.12/classes ...
+[warn] there were 8 feature warnings; re-run with -feature for details
+[warn] one warning found
+[info] done compiling
+[info] shutting down sbt server

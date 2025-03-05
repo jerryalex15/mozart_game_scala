@@ -1,0 +1,88 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.10.1 (Amazon.com Inc. Java 11.0.26)
+[debug] Load.defaultLoad until apply took 28.045375ms
+[debug]           Load.loadUnit: plugins took 30.633125ms
+[debug]           Load.loadUnit: defsScala took 0.077959ms
+[debug] [Loading] Scanning directory /Users/razafindraibenandrainajerryalex/Documents/Bosy/PPC/TDs/mozartGame_code/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/razafindraibenandrainajerryalex/Documents/Bosy/PPC/TDs/mozartGame_code/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 5.535834 ms
+[debug]               Load.resolveProject(mozartgame_code-build) took 16.400083ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id mozartgame_code-build, base: /Users/razafindraibenandrainajerryalex/Documents/Bosy/PPC/TDs/mozartGame_code/project, plugins: List(<none>))) took 33.757167ms
+[debug] [Loading] Done in /Users/razafindraibenandrainajerryalex/Documents/Bosy/PPC/TDs/mozartGame_code/project, returning: (mozartgame_code-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 39.792667ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.067084ms
+[debug]         Load.loadUnit(file:/Users/razafindraibenandrainajerryalex/Documents/Bosy/PPC/TDs/mozartGame_code/project/, ...) took 72.215833ms
+[debug]       Load.apply: load took 267.717125ms
+[debug]       Load.apply: resolveProjects took 2.622625ms
+[debug]       Load.apply: finalTransforms took 24.897417ms
+[debug]       Load.apply: config.delegates took 2.34775ms
+[debug]       Load.apply: Def.make(settings)... took 162.062833ms
+[debug]       Load.apply: structureIndex took 35.491792ms
+[debug]       Load.apply: mkStreams took 0.579333ms
+[info] loading project definition from /Users/razafindraibenandrainajerryalex/Documents/Bosy/PPC/TDs/mozartGame_code/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 821.592417ms
+[debug]     Load.loadUnit: defsScala took 0.001791ms
+[debug] [Loading] Scanning directory /Users/razafindraibenandrainajerryalex/Documents/Bosy/PPC/TDs/mozartGame_code
+[debug]       Load.loadUnit: mkEval took 3.043458ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.753709 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 0.905667ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: /Users/razafindraibenandrainajerryalex/Documents/Bosy/PPC/TDs/mozartGame_code, plugins: List(<none>))) took 2.004916ms
+[debug] [Loading] Done in /Users/razafindraibenandrainajerryalex/Documents/Bosy/PPC/TDs/mozartGame_code, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 61.391042ms
+[debug]     Load.loadUnit: cleanEvalClasses took 1.314875ms
+[debug]   Load.loadUnit(file:/Users/razafindraibenandrainajerryalex/Documents/Bosy/PPC/TDs/mozartGame_code/, ...) took 884.865167ms
+[debug] Load.apply: load took 898.395958ms
+[debug] Load.apply: resolveProjects took 0.054458ms
+[debug] Load.apply: finalTransforms took 5.743917ms
+[debug] Load.apply: config.delegates took 0.143167ms
+[debug] Load.apply: Def.make(settings)... took 40.558166ms
+[debug] Load.apply: structureIndex took 11.330375ms
+[debug] Load.apply: mkStreams took 0.001542ms
+[info] set current project to mozartGame (in build file:/Users/razafindraibenandrainajerryalex/Documents/Bosy/PPC/TDs/mozartGame_code/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:///Users/razafindraibenandrainajerryalex/.sbt/1.0/server/ced7eef3e491230909d5/sock
+[debug] Writing bsp connection file
+[info] started sbt server

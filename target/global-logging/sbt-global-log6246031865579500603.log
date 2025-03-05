@@ -1,0 +1,5 @@
+[debug] > Exec(compile, Some(ef4cd3ca-0942-4f7d-8c8f-59c3618fc0fc), Some(CommandSource(console0)))
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Total time: 0 s, completed 17 févr. 2025 à 14:21:29
+[debug] > Exec(shell, None, None)

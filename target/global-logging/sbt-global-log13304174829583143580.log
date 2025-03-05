@@ -1,0 +1,4 @@
+[debug] > Exec(run, Some(40bd9a88-b280-49b8-854d-5c875ab9f12f), Some(CommandSource(console0)))
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] shutting down sbt server

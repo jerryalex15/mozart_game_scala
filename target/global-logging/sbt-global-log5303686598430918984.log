@@ -1,0 +1,11 @@
+[debug] > Exec(compile, Some(cbc31bfd-5675-44b4-a4e0-5ca12da88bf7), Some(CommandSource(console0)))
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 3 Scala sources to /Users/razafindraibenandrainajerryalex/Documents/Bosy/PPC/TDs/mozartGame_code/target/scala-2.12/classes ...
+[info] Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.12. Compiling...
+[info]   Compilation completed in 2.904s.
+[warn] there were two feature warnings; re-run with -feature for details
+[warn] one warning found
+[info] done compiling
+[success] Total time: 7 s, completed 17 févr. 2025 à 10:45:58
+[debug] > Exec(shell, None, None)

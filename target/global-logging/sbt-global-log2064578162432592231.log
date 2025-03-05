@@ -1,0 +1,9 @@
+[debug] > Exec(compile, Some(03c35357-b35b-473b-a73d-b72ec10cdf3d), Some(CommandSource(console0)))
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 5 Scala sources to /Users/razafindraibenandrainajerryalex/Documents/Bosy/PPC/TDs/mozartGame_code/target/scala-2.12/classes ...
+[warn] there were two feature warnings; re-run with -feature for details
+[warn] one warning found
+[info] done compiling
+[success] Total time: 3 s, completed 17 févr. 2025 à 14:49:34
+[debug] > Exec(shell, None, None)

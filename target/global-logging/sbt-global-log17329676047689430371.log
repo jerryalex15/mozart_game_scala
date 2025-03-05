@@ -1,0 +1,7 @@
+[debug] > Exec(compile, Some(a637926d-49f9-48c4-ab7c-bf02b8cfc014), Some(CommandSource(console0)))
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to /Users/razafindraibenandrainajerryalex/Documents/Bosy/PPC/TDs/mozartGame_code/target/scala-2.12/classes ...
+[info] done compiling
+[success] Total time: 1 s, completed 17 févr. 2025 à 12:28:54
+[debug] > Exec(shell, None, None)
